@@ -87,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2e3842;
+		background: #2b2b2b;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1949,7 +1949,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #2e3842;
+			background: #2b2b2b;
 			color: #fff;
 			content: '\f00c';
 		}
@@ -3976,7 +3976,7 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: rgba(41, 41, 41, 0.37);
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -3995,11 +3995,10 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-color: #262627;
 	}
 
-.responsive {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-}
+	.responsive {
+		width: 100%;
+		height: auto;
+	  }
